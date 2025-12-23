@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker volumes
+postgres_data/
+clickhouse_data/
+grafana_data/
+superset_data/
+
+# Test coverage
+htmlcov/
+.coverage
+.pytest_cache/
+
+# ETL sync state
+src/etl/.last_sync
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
